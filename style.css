@@ -1,0 +1,34 @@
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.leaflet-bottom.leaflet-left {
+    width: 100%;
+}
+
+.leaflet-control-container .leaflet-timeline-controls {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: black;
+  position: relative;
+  background: #76ffff;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
